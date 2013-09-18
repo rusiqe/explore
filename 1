@@ -1,0 +1,11 @@
+
+document.addEventListener( "deviceready", onDeviceReady );
+ 
+var sfw;
+ 
+function onDeviceReady( event ) {
+    console.log("deviceready");
+     
+    //initialize salesforce wrapper
+    sfw = new SalesforceWrapper();
+}
